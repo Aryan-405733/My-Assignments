@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>Information technology has long been viewed as the power behind a new economic revolution 
+        — an evolving set of tools that has made workers much more productive than ever before, 
+        powering a step change as dramatic as steam or electricity. According to a report by the 
+        World Economic Forum, “digitization boosted world economic output by nearly US$200 billion 
+        and created 6 million jobs in 2011.”1 On a company-by-company basis, a number of studies have
+         found that companies that use more IT have higher productivity than their competitors.
+          However, we may be entering an era in which human frailties begin to slow down progress
+           from digital technologies.<span id="dots">...</span><span id="more">In a series of studies,
+            we explored the implications of
+            IT-induced technology stress, technology addiction and IT misuse in the workplace. 
+            (See “About the Research.”) One implication of our findings is that the very qualities 
+            that make IT useful — reliability, portability, user-friendliness and fast processing — may
+             also be undermining employee productivity, innovation and well-being.
+ After observing a number of organizations, we found that this rapidly emerging “dark side” of IT hurts employees
+  and their organizations and robs companies of some of the productivity gains they expect from their IT 
+  investments. In this article, we describe key negative effects of IT use in the workplace, explain the risks
+   they pose, and suggest ways managers can mitigate their impact. 
+    </span></p><button onclick="myFunction()" id="myBtn">Read less</button>
+
+   
+</body>
+<script>
+    function myFunction() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more";
+    moreText.style.display = "none";
+    
+  } else {
+        dots.style.display = "none";
+        btnText.innerHTML = "Read less";
+        moreText.style.display = "inline";
+   
+  }
+}
+</script>
+</html>
